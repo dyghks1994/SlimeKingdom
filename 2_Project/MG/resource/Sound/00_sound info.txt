@@ -1,0 +1,60 @@
+Title	타이틀 화면에 출력될 BGM	
+Intro	Intro부분에 출력될 BGM	
+InGame	게임 진행에 출력될  BGM	
+Ending	게임 엔딩 장면에서 출력될  BGM	
+			
+플레이어 효과음			
+
+플레이어 이동		Ch_Move
+플레이어 공격(불)		Ch_fAtk
+플레이어 공격(물)		Ch_wAtk
+플레이어 공격(풀)		Ch_gAtk
+플레이어 공격(통합)		Ch_Atk
+플레이어 스킬 흡수 		Ch_Drain
+플레이어 피격		Ch_Hit
+플레이어 사망		Ch_Dead
+플레이어 속성 변신(불)	Ch_fChange
+플레이어 속성 변신(물)	Ch_wChange
+플레이어 속성 변신(풀)	Ch_gChange
+플레이어 속성 변신(통합)	Ch_Change
+킹슬라임 변신 장면	효과음	KingSlime_Change
+플레이어 생명력 회복	Ch_Heal
+			
+몬스터 효과음			
+
+물슬라임 공격	효과음	플레이어 공격 사운드와 동일 (스킬을 흡수하여 다시 사용하므로)	W_Slime_Atk
+불슬라임 공격	효과음		F_Slime_Atk
+풀슬라임 공격	효과음		G_Slime_Atk
+슬라임 공격(통합)	효과음		Slime_Atk
+물슬라임 피격	효과음	통합으로 사용시 사용 X	W_Slime_Hit
+불슬라임 피격	효과음		F_Slime_Hit
+풀슬라임 피격	효과음		G_Slime_Hit
+몬스터 피격 (통합)	효과음		Slime_Hit
+물슬라임 사망	효과음	통합으로 사용시 사용 X	W_Slime_Dead
+불슬라임 사망	효과음		F_Slime_Dead
+풀슬라임 사망	효과음		G_Slime_Dead
+슬라임 사망(통합)	효과음		Slime_Dead
+			
+오브젝트 효과음			
+사운드 적용	사운드 종류	사용 목적	사운드 적용 시 사용될 이름
+상자 오픈 	효과음		Box_Open
+스위치 On	효과음		Switch_On
+물 석상 On	효과음		W_status_On
+불 석상 On	효과음		F_statue_On
+풀 석상 On	효과음		G_statue_On
+석상(통합) On	효과음		Statue_On
+표지판 알림음	효과음		Sign
+덤불 파괴	효과음	통합으로 사용시 사용 X	Bush_Destrory
+생명의 덤불 파괴	효과음		BushLife_Destrory
+깨진 바위 파괴	효과음		BrokenRock_Destrory
+(물)덤불		효과음		W_Bush_Destroy
+(물)생명의 덤불	효과음		W_BushLife_Destroy
+(물)깨진 바위	효과음		W_BrokenRock_Destory
+오브젝트 파괴	효과음		Obj_Destrory
+(물)덤불 이동	효과음	통합으로 사용시 사용 X	W_Bush_Move
+(물)생명의 덤불 이동	효과음		W_BushLife_Move
+(물)깨진 바위 이동	효과음		W_BrokenRock_Move
+(물)오브젝트 이동	효과음		W_Obj_Move
+(상호X)나무 공격시	효과음	통합으로 사용시 사용 X	Wood_Hit
+(상호X)바위 공격시	효과음		Rock_Hit
+(상호x) 통합 공격시	효과음		Obj_x_Hit

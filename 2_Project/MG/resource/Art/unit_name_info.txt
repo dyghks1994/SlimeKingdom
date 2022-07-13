@@ -1,0 +1,7 @@
+fire_slime
+grass_slime
+slime
+water_slime
+monster_fire
+monster_grass
+monster_water

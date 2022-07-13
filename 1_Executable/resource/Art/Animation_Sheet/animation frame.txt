@@ -1,0 +1,5 @@
+IDLE : 20
+MOVE : 18
+ATTACK : 12
+EAT : 17
+HURT : 10

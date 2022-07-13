@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameProcess">
+      <UniqueIdentifier>{23c81f00-cd56-4bf2-9008-6a300c8d84b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager">
+      <UniqueIdentifier>{be50a7db-7518-44af-96b1-10d9d6d4a236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager\GameSceneManager">
+      <UniqueIdentifier>{186c9546-510e-41d1-acc3-2ce499786283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager\GameSceneManager\Scenes">
+      <UniqueIdentifier>{4157805e-4cc0-4bfa-8aa0-e9ffe406c206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{b7183802-c01e-4aab-9352-02e589f2ae79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataManager">
+      <UniqueIdentifier>{b1077e8c-9893-47ca-8085-0ade7aee0478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataManager\SpirteManager">
+      <UniqueIdentifier>{34002810-3db6-4526-8fe0-7a842b428eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataManager\Json">
+      <UniqueIdentifier>{e6378639-bdde-4437-bbb1-1c2e82bb686b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataManager\Json\JsonManager">
+      <UniqueIdentifier>{94d5a89a-47f7-4279-b684-a5d89cc09bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataManager\Json\Lib">
+      <UniqueIdentifier>{9dbe939c-5ee9-438e-b643-f68a1b84e90c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataManager\MapManager">
+      <UniqueIdentifier>{c32a552c-30a6-49c2-aa3c-b0a00c1f1806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataManager\MapManager\Map">
+      <UniqueIdentifier>{2a6782a3-c19f-4229-9255-3b2a76a7036d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataManager\MapManager\Tile">
+      <UniqueIdentifier>{da1f8c4a-e4f4-4140-b378-0e65653433b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{777ecc5a-7c3e-46df-8c92-432838f803c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Unit">
+      <UniqueIdentifier>{c5f4f715-8f97-49a4-b5f5-e7368e1a4b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Gimmick">
+      <UniqueIdentifier>{6c79666c-d598-4184-88a6-79747ad3a390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Gimmick\Switch/Door">
+      <UniqueIdentifier>{4c584530-5869-4280-bcaa-00e396593d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundManager">
+      <UniqueIdentifier>{72eebc40-eab4-4442-ad67-c6b2b90884bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UglySlime.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess.h">
+      <Filter>GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSceneManager.h">
+      <Filter>GameManager\GameSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameScene.h">
+      <Filter>GameManager\GameSceneManager\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>GameManager\GameSceneManager\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEndingScene.h">
+      <Filter>GameManager\GameSceneManager\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="yohwan.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="min.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>DataManager\SpirteManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>GameObject\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameObject\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="enum.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="macro.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>GameObject\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>DataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>GameManager\GameSceneManager\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonManager.h">
+      <Filter>DataManager\Json\JsonManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\json-forwards.h">
+      <Filter>DataManager\Json\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\json.h">
+      <Filter>DataManager\Json\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>DataManager\MapManager\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Gimmick.h">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>DataManager\MapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>DataManager\MapManager\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>GameManager\GameSceneManager\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bush.h">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>GameObject\Gimmick\Switch/Door</Filter>
+    </ClInclude>
+    <ClInclude Include="Switch.h">
+      <Filter>GameObject\Gimmick\Switch/Door</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Statue.h">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Sign.h">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>GameManager\GameSceneManager\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UglySlime.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess.cpp">
+      <Filter>GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSceneManager.cpp">
+      <Filter>GameManager\GameSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameScene.cpp">
+      <Filter>GameManager\GameSceneManager\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>GameManager\GameSceneManager\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEndingScene.cpp">
+      <Filter>GameManager\GameSceneManager\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>DataManager\SpirteManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameObject\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>GameObject\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>GameObject\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>DataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>GameManager\GameSceneManager\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonManager.cpp">
+      <Filter>DataManager\Json\JsonManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Json\jsoncpp.cpp">
+      <Filter>DataManager\Json\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>DataManager\MapManager\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Gimmick.cpp">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>DataManager\MapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>DataManager\MapManager\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>GameManager\GameSceneManager\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bush.cpp">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>GameObject\Gimmick\Switch/Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Switch.cpp">
+      <Filter>GameObject\Gimmick\Switch/Door</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Statue.cpp">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Sign.cpp">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.cpp">
+      <Filter>GameManager\GameSceneManager\Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UglySlime.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UglySlime.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

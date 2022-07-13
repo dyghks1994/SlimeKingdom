@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GraphicEngine">
+      <UniqueIdentifier>{2ece1f1d-812d-4b68-af2d-82e9ee64f9f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{efdb9e98-0bde-4c94-b824-b5aa37e3eba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\SceneManager">
+      <UniqueIdentifier>{c928740a-4ebd-4c8b-a7ac-015a8c7ba651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\GameObjectManager">
+      <UniqueIdentifier>{a3244bfb-dd70-468a-a5a3-0632e89f08d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{a177fdb2-b2c1-4275-8b7a-2797acfa5a5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\CameraManager">
+      <UniqueIdentifier>{d5a7447d-26af-4f0c-ab49-62c17000a822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{8b55c461-8075-4a63-8f16-ae20e5319569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseClass">
+      <UniqueIdentifier>{22b82d55-254c-44cb-8473-1b4aadfd18a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{274f51f6-c509-4735-9925-ce887e4b42f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{2c777286-55ba-46d9-8c4e-771892d7edc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Collider">
+      <UniqueIdentifier>{0c21fd14-c31c-459d-96e9-9f0e4138cb75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{f6e2bf1d-ccd0-4ceb-a302-228ced2ddf34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\UIManager">
+      <UniqueIdentifier>{85f535a2-6251-438b-846a-f30c7fe25bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMain">
+      <UniqueIdentifier>{25ac34dd-83fa-4177-bdd7-a70f0e9a502f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\KeyInputManager">
+      <UniqueIdentifier>{29c5597b-eda9-4012-88ab-bf46f4f17941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite">
+      <UniqueIdentifier>{c7245c2b-4fc3-4a37-b95c-1b5fd462a6f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseClass\FSM">
+      <UniqueIdentifier>{b6d8e145-b49d-4518-a039-1b91b2f30c8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Manager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>Manager\GameObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="use.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="inc.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="macro.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicEngine.h">
+      <Filter>GraphicEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Manager\CameraManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>GameObject\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>GameObject\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>Manager\UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CMain.h">
+      <Filter>CMain</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyInputManager.h">
+      <Filter>Manager\KeyInputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h">
+      <Filter>BaseClass\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>BaseClass\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="TextUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="RectUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Manager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>Manager\GameObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicEngine.cpp">
+      <Filter>GraphicEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Manager\CameraManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>GameObject\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>GameObject\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>Manager\UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CMain.cpp">
+      <Filter>CMain</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyInputManager.cpp">
+      <Filter>Manager\KeyInputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM.cpp">
+      <Filter>BaseClass\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>BaseClass\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="TextUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="RectUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

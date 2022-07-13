@@ -1,0 +1,6 @@
+MonsterAttackEffect_fire 25 10.0f
+MonsterAttackEffect_leaf 25 10.0f
+MonsterAttackEffect_water 25 10.0f
+PlayerAttackEffect_fire 25 10.0f
+PlayerAttackEffect_leaf 25 10.0f
+PlayerAttackEffect_water 25 10.0f

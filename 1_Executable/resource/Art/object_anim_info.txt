@@ -1,0 +1,5 @@
+door_opening 20 3.0f
+starting_ani_sprite 10 1.0f
+box_opening_W 21 10.0f
+box_opening_F 21 10.0f
+box_opening_G 21 10.0f
